@@ -1,23 +1,8 @@
-.contato{
-    text-decoration: none;
-    padding: 10px 30px;
-    border: 1px solid #FCC028;
-    background: #FCC028;
-    font-size: 14px;
-    color: white;
-    border-radius: 10px;
-    transition: 0.5s;
-}
-.contato:hover{
-    background: white;
-    color: #FCC028;
-}
 section#sobre-mim{
     display: flex;
     align-items: flex-end;
     justify-content: space-evenly;
 }
-
 #conteudo-main{
     width: 606px;
     height: 317.97px;
