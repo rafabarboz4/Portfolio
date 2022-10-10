@@ -67,3 +67,15 @@ footer #social-midia a{
         padding: 3px;
     }
 }
+@media (max-width: 320px) {
+    footer{
+        padding: 30px 30px;
+        font-size: 7px;
+    }
+    footer #social-midia a{
+        padding: 3px;
+    }
+    footer img{
+        width: 10px;
+    }
+}

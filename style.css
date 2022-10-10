@@ -233,3 +233,97 @@ section#sobre-mim{
         margin: 10px 40px;
     }
 }
+@media (max-width: 320px) {
+    #projetos img{
+        width: 300px;
+        margin: 20px;
+    }
+    #habilidades-lista{
+        width: 320px;
+    }
+    #conteudo-main{
+        width: 320px;
+    }
+    #sobre-mim p{
+        font-size: 7px;
+        margin-bottom: 10px;
+        width: 320px;
+        height: 30px;
+    }
+    .perfil{
+        width: 180px;
+        margin-top: 20px;
+    }
+    .baixar{
+        text-decoration: none;
+        font-size: 10px;
+        padding: 0;
+    }
+    .baixar img{
+        padding: 0;
+        text-decoration: none;
+    }
+    .item{
+        width: 320px;
+    }
+    #projetos img{
+        width: 320px;
+        margin: 0px;
+    }
+    .item{
+        width: 320px;
+        height: 250px;
+        text-align: center;
+        margin: 0px;
+        padding: 0;
+    }
+    .item h4{
+        font-size: 12px;
+        font-weight: 500;
+    }
+    .item p{
+        font-size: 10px;
+        color: rgba(0, 0, 0, 0.5);
+    }
+    .item img{
+        width: 150px;
+    }
+    #habilidades-lista{
+        display: flex;
+        margin: 0px;
+        padding: 0;
+    }
+    #projetos img{
+        width: 250px;
+    }
+    .projetos{
+        margin-bottom: 30px;
+        padding: 15px;
+    }
+    #projetos .conteudo span{
+        color: #FCC028;
+        font-size: 20px;
+        font-weight: 500;
+    }
+    #projetos .conteudo h4{
+        margin-top: 10px;
+        font-size: 16px;
+        font-weight: 500;
+    }
+    #projetos .conteudo p{
+        margin-top: 7px;
+        font-size: 14px;
+        font-weight: 400;
+        color: rgba(0, 0, 0, 0.5);
+        margin-bottom: 40px;
+    }
+    #projetos .conteudo a{
+        text-decoration: none;
+        padding: 8px 20px;
+        border: 1px solid #FCC028;
+        font-size: 10px;
+        color: #FCC028;
+        border-radius: 10px;
+        transition: 0.5s;
+    }
+}
