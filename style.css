@@ -201,9 +201,10 @@ section#sobre-mim{
         margin-bottom: 10px;
     }
 }
-@media (max-width: 375px) {
+@media (max-width: 425px) {
     .perfil{
         width: 230px;
+        margin-top: 30px;
     }
     #sobre-mim span{
         font-size: 12px;
@@ -214,8 +215,19 @@ section#sobre-mim{
     #sobre-mim h4{
         font-size: 10px;
     }
+    .baixar{
+        text-decoration: none;
+        font-size: 17px;
+        padding: 0;
+        margin-bottom: 20px;
+    }
+    .baixar img{
+        padding: 0;
+        text-decoration: none;
+    }
     #sobre-mim p{
-        font-size: 8px;
+        font-size: 10px;
+        height: 40px;
         margin-bottom: 10px;
         width: 375px;
     }
@@ -231,6 +243,32 @@ section#sobre-mim{
     }
     .item{
         margin: 10px 40px;
+    }
+    #projetos img{
+        width: 230px;
+    }
+    .projetos{
+        margin-bottom: 30px;
+        padding: 15px;
+    }
+    #projetos .conteudo span{
+        font-size: 20px;
+        font-weight: 500;
+    }
+    #projetos .conteudo h4{
+        margin-top: 10px;
+        font-size: 16px;
+        font-weight: 500;
+    }
+    #projetos .conteudo p{
+        margin-top: 7px;
+        font-size: 12px;
+        font-weight: 400;
+        margin-bottom: 40px;
+    }
+    #projetos .conteudo a{
+        padding: 8px 20px;
+        font-size: 10px;
     }
 }
 @media (max-width: 320px) {
@@ -301,7 +339,6 @@ section#sobre-mim{
         padding: 15px;
     }
     #projetos .conteudo span{
-        color: #FCC028;
         font-size: 20px;
         font-weight: 500;
     }
@@ -314,16 +351,10 @@ section#sobre-mim{
         margin-top: 7px;
         font-size: 14px;
         font-weight: 400;
-        color: rgba(0, 0, 0, 0.5);
         margin-bottom: 40px;
     }
     #projetos .conteudo a{
-        text-decoration: none;
         padding: 8px 20px;
-        border: 1px solid #FCC028;
         font-size: 10px;
-        color: #FCC028;
-        border-radius: 10px;
-        transition: 0.5s;
     }
 }

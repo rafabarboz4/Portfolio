@@ -58,6 +58,18 @@ footer #social-midia a{
         font-size: 15px;
     }
 }
+@media (max-width: 425px) {
+    footer{
+        padding: 30px 30px;
+        font-size: 9px;
+    }
+    footer #social-midia a{
+        padding: 3px;
+    }
+    footer img{
+        width: 10px;
+    }
+}
 @media (max-width: 375px) {
     footer{
         padding: 30px 30px;
